@@ -10,3 +10,7 @@ for folder in */; do
     echo "no .env file found in $folder"
   fi
 done
+
+# to use the saved env
+cd folder_name
+cp "../${PWD##*/}.env" .env
