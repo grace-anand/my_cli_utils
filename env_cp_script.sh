@@ -12,5 +12,5 @@ for folder in */; do
 done
 
 # to use the saved env
-cd folder_name
-cp "../${PWD##*/}.env" .env
+# cd folder_name
+# cp "../envs/${PWD##*/}.env" .env
